@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0; 
+  
+}
+
+
+.btn-general{
+  background:#114658;
+  border:none;
+  border-radius: 10px;
+  color:#FFFFFF;
+  cursor: pointer;
+  font-family: 'Acme', sans-serif;
+  margin: 10px 25px ;
+  padding: 15px 55px;
+}
+
+.btn-general:hover{
+  background:#fed659;
+  font-family: 'Acme', sans-serif;
+  color:#114658;
+}
+.diagnostic-medic-pacient{
+  background: #47c995;
+  border-radius: 40px;
+  border: 2px solid #0A313F;
+  color: #FFFFFF;
+  height: 500px;
+  margin: 40px 330px 40px 330px;
+  text-align: center;
+  width: 800px;
+}
+footer {
+  background: #114658;
+  color: #FFFFFF;
+  font-family: 'Acme', sans-serif;
+  font-size: 15px;
+  height: 30px;
+  text-align: center;   
+}
+header {
+  background:#114658;
+  color: #FFFFFF;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  height: 100px;
+  text-align: center;  
+}
+h3,label {
+  font-family: 'Acme', sans-serif;
+  margin: 10px;
+}
+i {
+  padding: 60px 50px 20px 50px;
+  font-size: 120px;
+  
+}
+#login{
+  background: #47c995;
+  border-radius: 40px;
+  border: 2px solid #0A313F;
+  color: #FFFFFF;
+  height: 350px;
+  margin: 120px 400px 120px 470px;
+  text-align: center;
+  width: 500px;
+}
+
+.login-medic-pacient{
+  background: #47c995;
+  border-radius: 40px;
+  border: 2px solid #0A313F;
+  color: #FFFFFF;
+  height: 300px;
+  margin: 120px 500px 120px 500px;
+  text-align: center;
+  width: 380px;
+}
+.input-general{
+  border-radius: 5px;
+  width: 80px;
+  height: 20px;
+}
+main{
+  background:#d2ffff;
+  padding: 10px;
+  text-align: center;
+}
+p {
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+}
+.root{
+  width: 200px;
+  height: 900px;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px 300px 100px 300px; 
+}
+textarea{
+  height: 170px;
+  width: 750px;  
+}
+
