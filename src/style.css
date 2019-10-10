@@ -13,7 +13,7 @@ body{
   color:#FFFFFF;
   cursor: pointer;
   font-family: 'Acme', sans-serif;
-  margin: 10px 25px ;
+  margin: 10px 15px ;
   padding: 15px 55px;
 }
 .btn-general:hover{
@@ -24,7 +24,16 @@ body{
 .btn-general:focus{
   outline:none;
 }
-.diagnostic-medic-pacient{
+#btn-go-back{
+  border-radius: 10px;
+  background:#0074acf2;
+  border:none;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-left: 1350px;
+  padding: 3px 12px; 
+}
+#diagnostic-medic-patient{
   background: #ffffff57;
   border-radius: 2px;
   border: 1px solid #aacad585;
@@ -54,33 +63,33 @@ header {
 h3,label {
   font-family: 'Acme', sans-serif;
   margin: 10px;
+  color: #0d1836cf;
 }
 i {
-  padding: 60px 50px 20px 50px;
+  padding: 60px 45px 20px 45px;
   font-size: 120px; 
 }
 #login{
-  background: #47c995;
-  border-radius: 40px;
-  border: 2px solid #0A313F;
+  background: #ffffff52;
+  border-radius: 2px;
+  border: 1px solid #aacad585;
   color: #FFFFFF;
-  height: 350px;
-  margin: 120px 400px 120px 470px;
+  height: 330px;
+  margin: 120px 120px 100px 500px;
   text-align: center;
-  width: 500px;
+  width: 450px;
 }
-.login-medic-pacient{
-  background: #80e6f657;
-  
-  border-radius: 40px;
-  /*border: 2px solid #0A313F;*/
+.login-medic-patient{
+  background: #ffffff52;
+  border-radius: 2px;
+  border: 1px solid #aacad585;
   color: #FFFFFF;
   height: 300px;
-  margin: 120px 500px 120px 500px;
+  margin: 120px 550px 120px 550px;
   text-align: center;
   width: 380px;
 }
-.input-general{
+.send-general{
   border-radius: 5px;
   width: 80px;
   height: 20px;

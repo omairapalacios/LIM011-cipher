@@ -13,22 +13,53 @@
     <header> <h1>Clinic Cloud</h1></header>
     
     <main>
+      <button id="btn-go-back" class="btn-general">Volver</button> 
       <h3>CODIFICA TU DIAGNÓSTICO</h3>
       <h3>Ofrecer la máxima protección a los datos de nuestros usuarios es imprescindible.</h3>
 
-      <div class="diagnostic-medic-pacient">
-
-        <h3>Diagnostico Médico</h3>
-        <textarea name="diagnosticEncode" id="string-Text" ></textarea>
-        <div>
-          <label>N° de Llave:</label>
-            <input class="input-general" type="number" name="" id="offset-Text">
-            <button class="btn-general" type="button" id="btn-encode" >CIFRAR</button>
-            <button class="btn-general" type="button" id="btn-decode" >DESCRIFRAR</button>
+      <div  id="login">
+        <div >
+          <i class="fas fa-user-md"></i>
+          <i class="fas fa-user"></i>
         </div>
-        <textarea  name="" id="string-Text2" ></textarea>
-        </div> 
-    </main>   
+        <div >
+          <button class="btn-general" type="button" id="btn-medic">MÉDICO</button>
+          <button class="btn-general" type="button" id="btn-patient">PACIENTE</button>
+          <h3>IDENTIFÍCATE</h3>
+        </div>
+      </div>
+
+      <div id='login-medic' class="login-medic-patient" >
+        <i class="fas fa-user-md"></i>   
+          <div>
+            <label>Ingrese su código:</label>
+            <input id="cod-medic" class="send-general" type="text">
+          </div>
+        <button id="btn-send-medic" class="btn-general" type="button">ENVIAR</button>     
+      </div> 
+
+      <div id='login-patient' class="login-medic-patient">
+        <i class="fas fa-user"></i>   
+          <div>
+            <label>Ingrese su código:</label>
+            <input class="send-general" type="text">
+          </div>
+          <button id="btn-send-patient" class="btn-general" type="button" >ENVIAR</button>  
+      </div> 
+
+      <div id="diagnostic-medic-patient">
+        <h3>Diagnostico Médico</h3>
+          <textarea id="string-Text" ></textarea>
+          <div>
+            <label>N° de Llave:</label>
+            <input id="offset-Text" class="send-general" type="number" >
+            <button id="btn-encode" class="btn-general" type="button" >CIFRAR</button>
+            <button id="btn-decode" class="btn-general" type="button" >DESCRIFRAR</button>
+            <button id="btn-copy" class="btn-general" type="button" >COPIAR</button>
+          </div> 
+          <textarea id="string-Text2" ></textarea>         
+      </div> 
+    </main>
     <footer> 
       <p> Copyright &copy; Omaira Cristina Palacios Sánchez - Promoción LIM011 - Laboratoria</p>
     </footer>
