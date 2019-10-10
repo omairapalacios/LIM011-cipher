@@ -1,12 +1,13 @@
 * {
   margin: 0px;
-  padding: 0; 
+  padding: 0;  
   
 }
-
-
+body{
+  background: url(fondo.png);
+}
 .btn-general{
-  background:#114658;
+  background:#0074acf2;
   border:none;
   border-radius: 10px;
   color:#FFFFFF;
@@ -15,24 +16,27 @@
   margin: 10px 25px ;
   padding: 15px 55px;
 }
-
 .btn-general:hover{
-  background:#fed659;
+  background:#c4f6f3;
   font-family: 'Acme', sans-serif;
   color:#114658;
 }
+.btn-general:focus{
+  outline:none;
+}
 .diagnostic-medic-pacient{
-  background: #47c995;
-  border-radius: 40px;
-  border: 2px solid #0A313F;
+  background: #ffffff57;
+  border-radius: 2px;
+  border: 1px solid #aacad585;
   color: #FFFFFF;
   height: 500px;
-  margin: 40px 330px 40px 330px;
+  margin: 20px 330px 0px 330px;
   text-align: center;
   width: 800px;
+  
 }
 footer {
-  background: #114658;
+  background: #0074acf2;
   color: #FFFFFF;
   font-family: 'Acme', sans-serif;
   font-size: 15px;
@@ -40,7 +44,7 @@ footer {
   text-align: center;   
 }
 header {
-  background:#114658;
+  background : #0074acf2;
   color: #FFFFFF;
   font-family: 'Pacifico', cursive;
   font-size: 30px;
@@ -53,8 +57,7 @@ h3,label {
 }
 i {
   padding: 60px 50px 20px 50px;
-  font-size: 120px;
-  
+  font-size: 120px; 
 }
 #login{
   background: #47c995;
@@ -66,11 +69,11 @@ i {
   text-align: center;
   width: 500px;
 }
-
 .login-medic-pacient{
-  background: #47c995;
+  background: #80e6f657;
+  
   border-radius: 40px;
-  border: 2px solid #0A313F;
+  /*border: 2px solid #0A313F;*/
   color: #FFFFFF;
   height: 300px;
   margin: 120px 500px 120px 500px;
@@ -83,25 +86,22 @@ i {
   height: 20px;
 }
 main{
-  background:#d2ffff;
+  /* background:#d2ffff; */
+  
+  background-repeat: no-repeat;
   padding: 10px;
   text-align: center;
+  
 }
 p {
   height: 40px;
   padding: 5px;
   text-align: center;
 }
-.root{
-  width: 200px;
-  height: 900px;
-  display: flexbox;
-  flex-direction: column;
-  justify-content: center;
-  margin: 100px 300px 100px 300px; 
-}
 textarea{
   height: 170px;
   width: 750px;  
+  resize: none;
+  background: #fafafaf5;
 }
 
