@@ -3,7 +3,7 @@
 
   El manejo seguro de la información médica de un paciente puede tener un impacto en la calidad su tratamiento, sus derechos, prácticas laborales y hasta responsabilidades legales, es por ello que mediante esta aplicativo se garantizará la protección del historial y diagnóstico clinico, mediante la encriptación de los mismos, siendo una tarea explícita para todos aquellos que tienen la misión de cuidar la salud de los ciudadanos.La tecnica utilizada en este proyecto, consiste en sustituir cada letra por otra que se encuentra un numero fijo de posiciones mas adelante según sea el caso.
 
-  ![portada](/src/img-portada.png)
+  ![portada](https://drive.google.com/open?id=1hZz4NVDyw3PoTdgDnXo2lJ5O80Zh5pQP)
 
   ###   Investigación UX
 
