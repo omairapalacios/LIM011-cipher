@@ -39,10 +39,13 @@ body{
   border: 1px solid #aacad585;
   color: #FFFFFF;
   height: 500px;
-  margin: 20px 330px 0px 330px;
+  margin: 20px 300px 0px 350px;
   text-align: center;
-  width: 800px;
-  
+  width: 800px; 
+}
+.fa-lock{
+  width: 20px;
+  height: 20px;
 }
 footer {
   background: #0074acf2;
@@ -65,17 +68,21 @@ h3,label {
   margin: 10px;
   color: #0d1836cf;
 }
+.hide{
+  display: none;
+}
 i {
   padding: 60px 45px 20px 45px;
   font-size: 120px; 
 }
+
 #login{
   background: #ffffff52;
   border-radius: 2px;
   border: 1px solid #aacad585;
   color: #FFFFFF;
   height: 330px;
-  margin: 120px 120px 100px 500px;
+  margin: 50px 100px 120px 520px;
   text-align: center;
   width: 450px;
 }
@@ -85,7 +92,7 @@ i {
   border: 1px solid #aacad585;
   color: #FFFFFF;
   height: 300px;
-  margin: 120px 550px 120px 550px;
+  margin: 90px 100px 120px 570px;
   text-align: center;
   width: 380px;
 }
@@ -108,9 +115,10 @@ p {
   text-align: center;
 }
 textarea{
+  background: #fafafaf5;
   height: 170px;
   width: 750px;  
   resize: none;
-  background: #fafafaf5;
+  
 }
 

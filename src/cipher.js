@@ -17,14 +17,12 @@ if (offset > 0){
     }else {
       result += String.fromCharCode(asciiString) //conditional to any character
     }
-    document.getElementById('string-Text2').innerHTML = result 
-  } 
+  }  
 } else {
-    result= alert ("Por favor, ingrese un numero mayor a 0 :)") // to validate offset from input
+    result= "offset invalido" // to validate offset from input
 }
-}
-,
-
+return result
+},
 decode: (offset, string) => {
   let asciiString
   let result=''
@@ -39,12 +37,11 @@ decode: (offset, string) => {
         result += String.fromCharCode (((asciiString - 57 - parseInt(offset)) % 10 ) + 57)
       } else {
         result += String.fromCharCode(asciiString) // conditional to any character
-      }
-      document.getElementById('string-Text2').innerHTML = result   
-      } 
+      }  
+    } 
   } else {
-      result= alert ("Por favor, ingrese un numero mayor a 0 :)") // to validate offset from input
+      result= "offset invalido" // to validate offset from input
   }
+  return result
 }
-
 };
