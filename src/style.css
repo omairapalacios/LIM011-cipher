@@ -4,7 +4,7 @@
   
 }
 body{
-  background: url(fondo.png);
+  background: url(background.png);
 }
 .btn-general{
   background:#0074acf2;
@@ -102,12 +102,9 @@ i {
   height: 20px;
 }
 main{
-  /* background:#d2ffff; */
-  
   background-repeat: no-repeat;
   padding: 10px;
-  text-align: center;
-  
+  text-align: center; 
 }
 p {
   height: 40px;
