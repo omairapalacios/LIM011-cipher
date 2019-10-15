@@ -9,7 +9,7 @@
 
   * Usuarios principales :couple: : Médicos, responsables de la protección de la información médica de un paciente,utilizaran este aplicativo para codificar el diagnóstico clínico utilizando una 'Llave', para luego enviar esta información mediante algun medio eléctronico o fisico, la cual llegará a nuestro segundo grupo de usuarios: Pacientes, quienes conocerán previamente la "llave" con la cual podrá decodificar su diagnóstico,y solo ellos teniendo derecho a determinar el acceso o restricción al mismo.
 
-  * Necesidades o problemas de los usuarios :speech_balloon: : El acceso a la información médica de alguna persona puede tener un impacto en la calidad su tratamiento, sus derechos, prácticas laborales, relaciones interpersonales y hasta responsabilidades legales, por ello adoptar medidas para limitar el acceso a esta es clave en toda organización sanitaria, no solo para mantener la confianza médico-paciente, sino también en todo el sistema sanitario. 
+  * Necesidades o problemas de los usuarios :speech_balloon: : El acceso a la información médica de alguna persona puede tener un impacto en la calidad su tratamiento, sus derechos, prácticas laborales, relaciones interpersonales y hasta responsabilidades legales, por ello adoptar medidas para limitar el acceso a esta es clave en toda organización sanitaria, no solo para mantener la confianza médico-paciente, sino también en todo el sistema sanitario.
 ###   Primer prototipo
 
 ![first-prototipe](https://github.com/omairapalacios/LIM011-cipher/blob/master/src/ux-prototipe-page.pnggit)
@@ -49,7 +49,7 @@ A continuación te presentamos los objetivos de aprendizaje de este proyecto. Re
 - [x] Testeo de tus funciones.
 
 ### Git y GitHub
-- [x] Comandos de git (add | commit | pull | status | push).
+- [ ] Comandos de git (add | commit | pull | status | push).
 - [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
