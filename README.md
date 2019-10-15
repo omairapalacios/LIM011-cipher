@@ -12,7 +12,7 @@
   * Necesidades o problemas de los usuarios :speech_balloon: : El acceso a la información médica de alguna persona puede tener un impacto en la calidad su tratamiento, sus derechos, prácticas laborales, relaciones interpersonales y hasta responsabilidades legales, por ello adoptar medidas para limitar el acceso a esta es clave en toda organización sanitaria, no solo para mantener la confianza médico-paciente, sino también en todo el sistema sanitario.
 ###   Primer prototipo
 
-![prototipe](https://github.com/omairapalacios/LIM011-cipher/blob/master/src/ux-prototipe-page.pnggit)
+![prototipe](https://github.com/omairapalacios/LIM011-cipher/blob/master/src/ux-page.png)
 
 
 ## Objetivos de aprendizaje Cipher
