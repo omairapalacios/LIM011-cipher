@@ -4,7 +4,7 @@
   
 }
 body{
-  background: url(background.png);
+  background: url(ground.png);
 }
 .btn-general{
   background:#0074acf2;
@@ -25,27 +25,18 @@ body{
   outline:none;
 }
 #btn-go-back{
-  border-radius: 10px;
-  background:#0074acf2;
-  border:none;
-  color: #FFFFFF;
-  cursor: pointer;
-  margin-left: 1350px;
-  padding: 3px 12px; 
+  margin-left: 1200px;
+  margin-bottom: 10px;
 }
 #diagnostic-medic-patient{
   background: #ffffff57;
   border-radius: 2px;
   border: 1px solid #aacad585;
   color: #FFFFFF;
-  height: 500px;
-  margin: 20px 300px 0px 350px;
+  height: 450px;
+  margin: 20px 300px 10px 350px;
   text-align: center;
   width: 800px; 
-}
-.fa-lock{
-  width: 20px;
-  height: 20px;
 }
 footer {
   background: #0074acf2;
@@ -58,15 +49,18 @@ footer {
 header {
   background : #0074acf2;
   color: #FFFFFF;
-  font-family: 'Pacifico', cursive;
+  font-family:"Titillium Web", sans-serif;
   font-size: 30px;
   height: 100px;
   text-align: center;  
 }
-h3,label {
-  font-family: 'Acme', sans-serif;
-  margin: 10px;
+h3,h2,label {
   color: #0d1836cf;
+  font-family:sans-serif;
+  margin: 10px; 
+}
+h3{
+  padding-left: 80px; 
 }
 .hide{
   display: none;
@@ -75,14 +69,13 @@ i {
   padding: 60px 45px 20px 45px;
   font-size: 120px; 
 }
-
 #login{
   background: #ffffff52;
   border-radius: 2px;
   border: 1px solid #aacad585;
   color: #FFFFFF;
   height: 330px;
-  margin: 50px 100px 120px 520px;
+  margin: 50px 100px 130px 530px;
   text-align: center;
   width: 450px;
 }
@@ -92,17 +85,19 @@ i {
   border: 1px solid #aacad585;
   color: #FFFFFF;
   height: 300px;
-  margin: 90px 100px 120px 570px;
+  margin: 90px 100px 80px 570px;
   text-align: center;
   width: 380px;
 }
 .send-general{
-  border-radius: 5px;
+  border-radius: 8px;
   width: 80px;
   height: 20px;
 }
+.send-general:focus{
+  outline:none;
+}
 main{
-  background-repeat: no-repeat;
   padding: 10px;
   text-align: center; 
 }
@@ -113,9 +108,9 @@ p {
 }
 textarea{
   background: #fafafaf5;
-  height: 170px;
+  height: 160px;
   width: 750px;  
-  resize: none;
-  
+  resize: none; 
 }
+
 

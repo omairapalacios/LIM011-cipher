@@ -17,17 +17,17 @@ document.getElementById('btn-send-medic').addEventListener('click',() =>{
   document.getElementById('btn-go-back').classList.remove('hide')
   document.getElementById('login-patient').classList.add('hide')
   document.getElementById('login-medic').classList.add('hide')
+  document.getElementById('btn-decode').classList.add('hide')
 })
 document.getElementById('btn-send-patient').addEventListener('click',() =>{
   document.getElementById('diagnostic-medic-patient').classList.remove('hide')
   document.getElementById('btn-go-back').classList.remove('hide')
   document.getElementById('login-patient').classList.add('hide')
   document.getElementById('login-medic').classList.add('hide')
+  document.getElementById('btn-encode').classList.add('hide')
 })
 document.getElementById('btn-go-back').addEventListener('click',() =>{
-  document.getElementById('login').classList.remove('hide')
-  document.getElementById('diagnostic-medic-patient').classList.add('hide')
-  document.getElementById('btn-go-back').classList.add('hide')
+  document.location.reload(true);
 })
 document.getElementById('btn-encode').addEventListener('click', () =>{ 
   offset=document.getElementById('offset-Text').value
@@ -42,7 +42,7 @@ document.getElementById('btn-encode').addEventListener('click', () =>{
 })
 document.getElementById('btn-decode').addEventListener('click', () =>{
   offset=document.getElementById('offset-Text').value
-  string = document.getElementById('string-Text2').value
+  string = document.getElementById('string-Text').value
   result = cipher.decode(offset, string)
   if (result==="offset invalido"){
     alert ("Por favor, ingrese un numero mayor o diferente de cero")

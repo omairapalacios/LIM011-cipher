@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Titillium+Web&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
 
-    <header><h1> Cipher Clinic Cloud </h1></header>
+    <header><h1> CIPHER CLINIC CLOUD</h1></header>
     
     <main>
-      <button id="btn-go-back" class="btn-general">Volver</button> 
-      <h3>CODIFICA TU DIAGNÓSTICO</h3>
+      <h3 id="sub-tittle">CODIFICA TU DIAGNÓSTICO</h3>
       <h3>Ofrecer la máxima protección a los datos de nuestros usuarios es imprescindible.</h3>
 
       <div  id="login">
@@ -25,7 +26,6 @@
         <div >
           <button class="btn-general" type="button" id="btn-medic">MÉDICO</button>
           <button class="btn-general" type="button" id="btn-patient">PACIENTE</button>
-          <h3>IDENTIFÍCATE</h3>
         </div>
       </div>
 
@@ -43,16 +43,17 @@
           <div>
             <label>Ingrese su código:</label>
             <input class="send-general" type="text">
+            
           </div>
           <button id="btn-send-patient" class="btn-general" type="button" >ENVIAR</button>  
       </div> 
 
       <div id="diagnostic-medic-patient" class="hide">
-        <h3>Diagnostico Médico</h3>
+        <h2>DIAGNOSTICO MÉDICO</h2>
           <textarea id="string-Text" ></textarea>
           <div>
             <label>N° de Llave:</label>
-            <input id="offset-Text" class="send-general" type="number" >
+            <input id="offset-Text" class="send-general" type="number" required>
             <button id="btn-encode" class="btn-general" type="button" >CIFRAR</button>
             <button id="btn-decode" class="btn-general" type="button" >DESCRIFRAR</button>
 
@@ -60,10 +61,10 @@
           <textarea id="string-Text2" ></textarea>         
       </div> 
     </main>
+    <button id="btn-go-back" class="btn-general hide" type="reset">Volver</button> 
     <footer> 
       <p> Copyright &copy; Omaira Cristina Palacios Sánchez - Promoción LIM011 - Laboratoria</p>
     </footer>
-    
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
